@@ -4,4 +4,4 @@ In attempting the dsps data competition, the model was trained with the first ba
 The figures below obtained from exp2 and exp3 show the training results from both training stages. 
 
 
-Trainging stages results with hyperparemeter selections and optimization parameters, and labeled test data can be found in the folder labeled competition results
+Trainging stages results with hyperparemeter selections and optimization parameters and the submission json and csv files can be found in the results folder. Labeled test data can be found in the data folder
