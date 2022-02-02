@@ -132,8 +132,8 @@ def cvat2yolo(cfolder,json_file,img_path, output_path, val_path):
     # train_data = list(set(img_data).difference(val_data))
     
     random.shuffle(img_data)
-    val_data = img_data[0:int(len(img_data)*0.2)]
-    train_data = img_data[int(len(img_data)*0.2):]
+    val_data = img_data[0:int(len(img_data)*0.15)]
+    train_data = img_data[int(len(img_data)*0.15):]
     
     # print (cur_cls)
     for img in train_data:
