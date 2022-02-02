@@ -1,0 +1,7 @@
+In training, the original ipnyb files were utilized without changing much. In the first training stage, indicated by the file dsps_main_trainstep 1 the original
+labeled data from training batch one was utilized. Results obtained from this first training stage were utilized for the training stage 2.
+
+The second training stage, indicated by the code file dsps_main_trainstep_2 was utilized. The labeled data in the directory in this repository labeled as data
+was added to the td4 data and the model trained using last weights from the previous training stage labeled as 
+"/content/drive/MyDrive/competition/DSPS/weights/train/exp2/weights/last.pt" which might be different when run in a different machine. The model was trained for 4
+epochs
