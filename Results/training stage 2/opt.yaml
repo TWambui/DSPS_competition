@@ -1,4 +1,4 @@
-weights: /content/drive/MyDrive/competition/DSPS/weights/train/exp11/weights/last.pt
+weights: /content/drive/MyDrive/competition/DSPS/weights/train/exp2/weights/last.pt
 cfg: dspYolov5/models/dsps_model.yaml
 data: dspYolov5/data/dsps.yaml
 hyp: ./dspYolov5/data/hyps/hyp.scratch.yaml
