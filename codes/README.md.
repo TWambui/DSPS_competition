@@ -1,7 +1,8 @@
 In training, the original ipnyb files were utilized without changing much. In the first training stage, indicated by the file dsps_main_trainstep 1 the original
-labeled data from training batch one was utilized. Results obtained from this first training stage were utilized for the training stage 2.
+labeled data from training batch one was utilized. Results obtained from this first training stage were utilized for the training stage 2. The simple_fxn.py code
+presented was utilized in the first stage of training. This file changed the validation and train split to 15% and 85% respectively
 
 The second training stage, indicated by the code file dsps_main_trainstep_2 was utilized. The labeled data in the directory in this repository labeled as data
 was added to the td4 data and the model trained using last weights from the previous training stage labeled as 
 "/content/drive/MyDrive/competition/DSPS/weights/train/exp2/weights/last.pt" which might be different when run in a different machine. The model was trained for 4
-epochs
+epochs. For the second training stage the defult simple_fxn.py file was utilized where the validation and train split was 20% and 80% respectively.
